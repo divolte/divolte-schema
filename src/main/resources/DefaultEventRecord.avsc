@@ -4,6 +4,10 @@
     "name": "DefaultEventRecord",
     "fields": [
         {
+            "name": "detectedDuplicate",
+            "type": "boolean"
+        },
+        {
             "name": "firstInSession",
             "type": "boolean"
         },
