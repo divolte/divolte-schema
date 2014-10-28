@@ -8,6 +8,10 @@
             "type": "boolean"
         },
         {
+            "name": "detectedCorruption",
+            "type": "boolean"
+        },
+        {
             "name": "firstInSession",
             "type": "boolean"
         },
