@@ -1,4 +1,26 @@
-divolte-schema
+Divolte Schema
 ==============
 
-Divolte default Avro schema to use as external dependency
+This project contains the default schema used by [Divolte Collector][1]. You can
+depend on this if you need to access the default schema.
+
+Usage
+-----
+
+Prebuilt JARs are available via Maven Central. The current version is 0.1-SNAPSHOT.
+
+There are two ways to access the schema at runtime. It can be accessed directly
+via the Avro-generate record class:
+
+```java
+Schema defaultSchema = DefaultEventRecord.getClassSchema()
+```
+
+It is also available as the `/DefaultEventRecord.avsc` resource.
+
+License
+-------
+
+This project and its artifacts are licensed under the terms of the Apache License, Version 2.0.
+
+  [1]: divolte/divolte-collector    "Divolte Collector"
