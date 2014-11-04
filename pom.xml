@@ -20,10 +20,36 @@
   <artifactId>divolte-schema</artifactId>
   <packaging>jar</packaging>
   <version>0.1-SNAPSHOT</version>
-  <name>divolte-schema</name>
   <prerequisites>
     <maven>2.2.1</maven>
   </prerequisites>
+  <name>Divolte Default Schema</name>
+  <description>The default Avro schema used by Divolte Collector for storing logged events.</description>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Friso van Vollenhoven</name>
+      <email>frisovanvollenhoven@godatadriven.com</email>
+      <organization>GoDataDriven B.V.</organization>
+      <organizationUrl>http://godatadriven.com</organizationUrl>
+    </developer>
+    <developer>
+      <name>Andrew Snare</name>
+      <email>andrewsnare@godatadriven.com</email>
+      <organization>GoDataDriven B.V.</organization>
+      <organizationUrl>http://godatadriven.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:divolte/divolte-schema.git</connection>
+    <developerConnection>scm:git:git@github.com:divolte/divolte-schema.git</developerConnection>
+    <url>git@github.com:divolte/divolte-schema.git</url>
+  </scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
