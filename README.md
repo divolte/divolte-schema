@@ -21,6 +21,7 @@ It is also available as the `/DefaultEventRecord.avsc` resource.
 License
 -------
 
-This project and its artifacts are licensed under the terms of the Apache License, Version 2.0.
+This project and its artifacts are licensed under the terms of the [Apache License, Version 2.0][2].
 
-  [1]: divolte/divolte-collector    "Divolte Collector"
+  [1]: divolte/divolte-collector                        "Divolte Collector"
+  [2]: http://www.apache.org/licenses/LICENSE-2.0.html  "Apache License 2.0"
