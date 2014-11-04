@@ -6,6 +6,9 @@
   <packaging>jar</packaging>
   <version>0.1-SNAPSHOT</version>
   <name>divolte-schema</name>
+  <prerequisites>
+    <maven>2.2.1</maven>
+  </prerequisites>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
