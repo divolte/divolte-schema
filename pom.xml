@@ -19,7 +19,7 @@
   <groupId>io.divolte</groupId>
   <artifactId>divolte-schema</artifactId>
   <packaging>jar</packaging>
-  <version>0.1</version>
+  <version>0.2-SNAPSHOT</version>
   <prerequisites>
     <maven>2.2.1</maven>
   </prerequisites>
@@ -50,7 +50,7 @@
     <connection>scm:git:git@github.com:divolte/divolte-schema.git</connection>
     <developerConnection>scm:git:git@github.com:divolte/divolte-schema.git</developerConnection>
     <url>git@github.com:divolte/divolte-schema.git</url>
-    <tag>divolte-schema-0.1</tag>
+    <tag>HEAD</tag>
   </scm>
   <distributionManagement>
   <snapshotRepository>
