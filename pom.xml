@@ -26,6 +26,11 @@
   <name>Divolte Default Schema</name>
   <description>The default Avro schema used by Divolte Collector for storing logged events.</description>
   <url>https://github.com/divolte/divolte-schema</url>
+  <inceptionYear>2014</inceptionYear>
+  <organization>
+    <name>GoDataDriven B.V.</name>
+    <url>http://godatadriven.com/</url>
+  </organization>
   <licenses>
     <license>
       <name>The Apache License, Version 2.0</name>
