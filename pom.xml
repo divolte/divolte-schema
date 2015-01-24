@@ -4,7 +4,7 @@
   <groupId>io.divolte</groupId>
   <artifactId>divolte-schema</artifactId>
   <packaging>jar</packaging>
-  <version>0.1-SNAPSHOT</version>
+  <version>0.2-SNAPSHOT</version>
   <name>divolte-schema</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

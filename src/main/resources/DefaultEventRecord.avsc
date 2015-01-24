@@ -20,6 +20,10 @@
             "type": "long"
         },
         {
+            "name": "clientTimestamp",
+            "type": "long"
+        },
+        {
             "name": "remoteHost",
             "type": "string"
         },
