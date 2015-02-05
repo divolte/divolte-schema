@@ -9,8 +9,8 @@ Usage
 
 Prebuilt JARs are available via Maven Central. The current version is 0.2-SNAPSHOT.
 
-There are two ways to access the schema at runtime. It can be accessed directly
-via the Avro-generate record class:
+There are two ways to access the schema at runtime. It can be accessed directly via
+the Avro-generate record class:
 
 ```java
 Schema defaultSchema = DefaultEventRecord.getClassSchema()
