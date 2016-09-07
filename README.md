@@ -7,7 +7,7 @@ depend on this if you need to access the default schema.
 Usage
 -----
 
-Prebuilt JARs are available via Maven Central. The current release version is 0.4.0.
+Prebuilt JARs are available via Maven Central. The current release version is 0.4.1.
 
 There are two ways to access the schema at runtime. It can be accessed directly via
 the Avro-generate record class:
