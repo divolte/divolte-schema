@@ -19,7 +19,7 @@
   <groupId>io.divolte</groupId>
   <artifactId>divolte-schema</artifactId>
   <packaging>jar</packaging>
-  <version>0.7.0-SNAPSHOT</version>
+  <version>0.7.0</version>
   <name>Divolte Default Schema</name>
   <description>The default Avro schema used by Divolte Collector for storing logged events.</description>
   <url>https://github.com/divolte/divolte-schema</url>
@@ -59,7 +59,7 @@
     <connection>scm:git:git@github.com:divolte/divolte-schema.git</connection>
     <developerConnection>scm:git:git@github.com:divolte/divolte-schema.git</developerConnection>
     <url>git@github.com:divolte/divolte-schema.git</url>
-    <tag>HEAD</tag>
+    <tag>divolte-schema-0.7.0</tag>
   </scm>
   <distributionManagement>
     <snapshotRepository>
