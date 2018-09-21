@@ -80,6 +80,18 @@
       <artifactId>avro</artifactId>
       <version>1.8.2</version>
     </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.3.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>5.3.1</version>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
@@ -121,6 +133,9 @@
             <configuration>
               <sourceDirectory>${project.basedir}/src/main/resources/</sourceDirectory>
               <outputDirectory>${project.basedir}/src/generated/java/</outputDirectory>
+              <createSetters>false</createSetters>
+              <enableDecimalLogicalType>true</enableDecimalLogicalType>
+              <fieldVisibility>PRIVATE</fieldVisibility>
             </configuration>
           </execution>
         </executions>
@@ -134,6 +149,10 @@
           <target>1.8</target>
           <compilerArgument>-parameters</compilerArgument>
         </configuration>
+      </plugin>
+      <plugin>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.22.0</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
