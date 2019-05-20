@@ -135,6 +135,7 @@
               <outputDirectory>${project.basedir}/src/generated/java/</outputDirectory>
               <createSetters>false</createSetters>
               <enableDecimalLogicalType>true</enableDecimalLogicalType>
+              <dateTimeLogicalTypeImplementation>JSR310</dateTimeLogicalTypeImplementation>
               <fieldVisibility>PRIVATE</fieldVisibility>
             </configuration>
           </execution>

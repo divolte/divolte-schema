@@ -16,8 +16,8 @@ class DefaultEventRecordTest {
                           .setDetectedCorruption(false)
                           .setDetectedDuplicate(false)
                           .setFirstInSession(true)
-                          .setTimestamp(timestamp.toEpochMilli())
-                          .setClientTimestamp(timestamp.toEpochMilli())
+                          .setTimestamp(timestamp)
+                          .setClientTimestamp(timestamp)
                           .setRemoteHost("localhost")
                           .build();
     }
