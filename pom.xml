@@ -121,7 +121,7 @@
       <plugin>
         <groupId>org.apache.avro</groupId>
         <artifactId>avro-maven-plugin</artifactId>
-        <version>1.9.0</version>
+        <version>1.10.0</version>
         <executions>
           <execution>
             <phase>generate-sources</phase>
