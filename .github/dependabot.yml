@@ -1,0 +1,20 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: org.apache.avro:avro
+    versions:
+    - 1.10.1
+  - dependency-name: org.apache.avro:avro-maven-plugin
+    versions:
+    - 1.10.1
+  - dependency-name: org.junit.jupiter:junit-jupiter-api
+    versions:
+    - 5.7.0
+  - dependency-name: org.junit.jupiter:junit-jupiter-engine
+    versions:
+    - 5.7.0
